@@ -1,0 +1,25 @@
+{
+    "chain_name": "zkcloud",
+    "alias": "zkcloud",
+    "api": [
+        "https://rest.mainnet.zkcloud.com"
+    ],
+    "rpc": [
+        "https://rpc.mainnet.zkcloud.com"
+    ],
+    "snapshot_provider": "",
+    "addr_prefix": "proof",
+    "coin_type": "60",
+    "min_tx_fee": "5000",
+    "assets": [
+        {
+            "base": "uproof",
+            "symbol": "PROOF",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "/logos/zkcloud.jpg"
+        }
+    ],
+    "logo": "/logos/zkcloud.jpg",
+    "sdk_version": "v0.47.5"
+}
