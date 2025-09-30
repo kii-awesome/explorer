@@ -1,0 +1,24 @@
+{
+    "chain_name": "bitway",
+    "alias": "bitway",
+    "api": [
+        "https://rest.cosmos.directory/bitway"
+    ],
+    "rpc": [
+        "https://rpc.cosmos.directory/bitway"
+    ],
+    "snapshot_provider": "",
+    "addr_prefix": "bc",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "assets": [
+        {
+            "base": "ubtw",
+            "symbol": "BTW",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "/logos/bitway.png"
+        }
+    ],
+    "logo": "/logos/bitway.png"
+}

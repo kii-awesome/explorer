@@ -1,0 +1,23 @@
+{
+  "chain_name": "union",
+  "coingecko": "union-2",
+  "api": [
+    "https://rest.cosmos.directory/union"
+  ],
+  "rpc": [
+    "https://rpc.cosmos.directory/union"
+  ],
+  "coin_type": 118,
+  "min_tx_fee": "1000",
+  "addr_prefix": "union",
+  "logo": "/logos/union.jpg",
+  "assets": [
+    {
+      "base": "au",
+      "symbol": "U",
+      "exponent": 18,
+      "coingecko_id": "",
+      "logo": "/logos/union.jpg"
+    }
+  ]
+}

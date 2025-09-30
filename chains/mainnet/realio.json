@@ -1,46 +1,48 @@
 {
-    "chain_name": "realio",
-    "alias": "realio",
-    "api": [
-      "https://realio-api.genznodes.dev"
-    ],
-    "rpc": [
-      "https://realio-rpc.genznodes.dev"
-    ],
-    "snapshot_provider": "",
-    "addr_prefix": "realio",
-    "coin_type": "60",
-    "min_tx_fee": "8000",
-    "assets": [
-      {
-        "base": "stake",
-        "symbol": "STAKE",
-        "exponent": "18",
-        "coingecko_id": "realio-network",
-        "logo": "/logos/rio.png"
-      },
-      {
-        "base": "ario",
-        "symbol": "RIO",
-        "exponent": "18",
-        "coingecko_id": "realio-network",
-        "logo": "/logos/rio.png"
-      },
-      {
-        "base": "arst",
-        "symbol": "RST",
-        "exponent": "18",
-        "coingecko_id": "",
-        "logo": "/logos/rst.jpg"
-      },
-      {
-        "base": "almx",
-        "symbol": "LMX",
-        "exponent": "18",
-        "coingecko_id": "",
-        "logo": ""
-      }
-    ],
-    "logo": "/logos/rio.png",
-    "sdk_version": "0.45.8"
-  }
+  "chain_name": "realio",
+  "alias": "realio",
+  "api": [
+    "https://rest.cosmos.directory/realio",
+    "https://realio-api.genznodes.dev"
+  ],
+  "rpc": [
+    "https://rpc.cosmos.directory/realio",
+    "https://realio-rpc.genznodes.dev"
+  ],
+  "snapshot_provider": "",
+  "addr_prefix": "realio",
+  "coin_type": "60",
+  "min_tx_fee": "8000",
+  "assets": [
+    {
+      "base": "stake",
+      "symbol": "STAKE",
+      "exponent": "18",
+      "coingecko_id": "realio-network",
+      "logo": "/logos/rio.png"
+    },
+    {
+      "base": "ario",
+      "symbol": "RIO",
+      "exponent": "18",
+      "coingecko_id": "realio-network",
+      "logo": "/logos/rio.png"
+    },
+    {
+      "base": "arst",
+      "symbol": "RST",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/rst.jpg"
+    },
+    {
+      "base": "almx",
+      "symbol": "LMX",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": ""
+    }
+  ],
+  "logo": "/logos/rio.png",
+  "sdk_version": "0.45.8"
+}
